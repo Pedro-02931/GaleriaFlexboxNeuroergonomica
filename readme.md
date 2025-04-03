@@ -6,21 +6,21 @@ Uma galeria de imagens flexível estilizada com foco em princípios de neuroergo
 
 ## Principais Técnicas Aplicadas
 
-- **Cores Neuroergonômicas:** 
-- - Utilização de fundo escuro para reduzir a fadiga visual e cores de texto com contraste ideal para facilitar a leitura. 
-- - Cor de destaque estratégica para chamar a atenção.
+- **Cores Neuroergonômicas:**
+  - Utilização de fundo escuro para reduzir a fadiga visual e cores de texto com contraste ideal para facilitar a leitura. 
+  - Cor de destaque estratégica para chamar a atenção.
 - **Gradientes Sutis:** 
-- - Aplicação de gradientes suaves para adicionar profundidade visual sem distrações.
+  - Aplicação de gradientes suaves para adicionar profundidade visual sem distrações.
 - **Temporizações de Transição Conscientes:** 
-- - Escolha de durações de transição que imitam o processamento visual humano para um feedback intuitivo.
+  - Escolha de durações de transição que imitam o processamento visual humano para um feedback intuitivo.
 - **Sombras para Percepção de Profundidade:** 
-- - Uso de sombras discretas para auxiliar na percepção da hierarquia e profundidade dos elementos.
+  - Uso de sombras discretas para auxiliar na percepção da hierarquia e profundidade dos elementos.
 - **Feedback Visual Não Invasivo ao Hover:** 
-- - Fornecimento de feedback sutil ao passar o mouse para indicar interatividade sem sobrecarregar.
+  - Fornecimento de feedback sutil ao passar o mouse para indicar interatividade sem sobrecarregar.
 - **Layout Flexível:** 
-- - Utilização do Flexbox para criar uma galeria responsiva que se adapta a diferentes tamanhos de tela.
+  - Utilização do Flexbox para criar uma galeria responsiva que se adapta a diferentes tamanhos de tela.
 - **Otimização Visual de SVGs:** 
-- - Aplicação de filtros sutis para melhorar a definição e o contraste de imagens vetoriais.
+  - Aplicação de filtros sutis para melhorar a definição e o contraste de imagens vetoriais.
 
 Este projeto demonstra a aplicação de princípios de neuroergonomia no design de interfaces web, visando criar uma experiência visual mais agradável e eficiente para o usuário.
 
