@@ -46,6 +46,7 @@ html, body {
 header, footer {
     background: var(--neuro-bg);
     color: var(--neuro-text);
+    font-size: large;
     height: 20vh;
     display: flex;
     align-items: center;
