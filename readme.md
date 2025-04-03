@@ -1,5 +1,5 @@
 # Galeria Flexbox Neuroergonômica
-
+![Prev](./assets/prev.jpeg)
 ## Descrição
 
 Uma galeria de imagens flexível estilizada com foco em princípios de neuroergonomia ~~termo meia boca, confesso~~ para otimizar o conforto visual e a experiência do usuário através de cores, contrastes e feedback visual.
@@ -23,5 +23,6 @@ Uma galeria de imagens flexível estilizada com foco em princípios de neuroergo
   - Aplicação de filtros sutis para melhorar a definição e o contraste de imagens vetoriais.
 
 Este projeto demonstra a aplicação de princípios de neuroergonomia no design de interfaces web, visando criar uma experiência visual mais agradável e eficiente para o usuário.
+
 
 [Segue a documentação feita no GitBook que explica em detalhes tudo que foi aplicar](https://senai-1.gitbook.io/senai.org/tarefas-senai/ldm/stylization/neuroergonomic-ui-design-a-color-and-interaction-optimization-approach)
