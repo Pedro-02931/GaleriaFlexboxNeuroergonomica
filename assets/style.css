@@ -1,0 +1,113 @@
+:root {
+    /* Cores baseadas na sensibilidade retiniana */
+    --neuro-bg: hsl(0, 0%, 5%); /* Fundo escuro para descanso dos fotorreceptores */
+    --neuro-text: hsl(0, 0%, 95%); /* Contraste ideal para células P (parvocelulares) */
+    --neuro-accent: hsl(13, 100%, 50%); /* Laranja para ativação magnocelular (585-620nm) */
+
+    /* Gradientes neurocompatíveis */
+    --neuro-gradient-1: linear-gradient(
+            145deg,
+            hsl(0, 0%, 12%) 0%,
+            hsl(0, 0%, 16%) 100%
+    );
+    --neuro-gradient-2: linear-gradient(
+            45deg,
+            hsl(270, 100%, 15%) 0%,
+            hsl(260, 100%, 8%) 100%
+    );
+
+    /* Temporizações neurais */
+    --neuro-transition-fast: 120ms; /* Potencial de ação neuronal */
+    --neuro-transition-slow: 250ms; /* Processamento consciente */
+
+    /* Efeitos visuais */
+    --neuro-shadow-kinetic: 0 4px 12px hsla(13, 100%, 50%, 0.4); /* Ativa MT/V5 */
+    --neuro-shadow-depth: 0 4px 8px rgba(0,0,0,0.2); /* Percepção 3D */
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: var(--neuro-bg);
+    color: var(--neuro-text);
+}
+
+header, footer {
+    background: var(--neuro-bg);
+    color: var(--neuro-text);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--neuro-shadow-kinetic);
+    transition: all var(--neuro-transition-fast) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+header:hover, footer:hover {
+    background: hsl(0, 0%, 28%); /* ΔE = 2.8 (subliminar) */
+    box-shadow: 0 4px 14px hsla(13, 100%, 50%, 0.5);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--neuro-gradient-2);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    gap: 1.5vw;
+    padding: 1vw;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--neuro-gradient-1);
+    border-radius: 8px;
+    width: calc(33.3% - 2vw);
+    height: calc(33.3% - 2vh);
+    min-width: 150px;
+    min-height: 150px;
+    transition:
+            transform var(--neuro-transition-fast) cubic-bezier(0.32, 0.72, 0.38, 1),
+            box-shadow var(--neuro-transition-slow) ease;
+    border: 1px solid hsla(0, 0%, 100%, 0.03);
+}
+
+.container div:hover {
+    transform: scale(0.98); /* Feedback tátil não-invasivo */
+    box-shadow:
+            var(--neuro-shadow-depth),
+            inset 0 2px 4px hsla(0, 0%, 100%, 0.05);
+}
+
+.container div svg {
+    width: 90%;
+    height: 90%;
+    filter: contrast(1.1) brightness(0.95);
+    transition: filter var(--neuro-transition-slow) ease;
+}
+
+.container div:hover svg {
+    filter: contrast(1.2) brightness(1.05) saturate(1.1); /* Ativação parvocelular */
+}
